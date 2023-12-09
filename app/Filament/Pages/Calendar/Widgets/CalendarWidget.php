@@ -28,23 +28,18 @@ class CalendarWidget extends FullCalendarWidget
                     'title' => $task->name,
                     'start' => $task->start,
                     'end' => $task->end,
-                    
                 ];
             })
             ->all();
     }
 
-    protected function headerActions(): array
+    protected function modalActions(): array
     {
         return [
-            CreateAction::make(),
+            EditAction::make(),
+            DeleteAction::make(),
         ];
     }
-
-    /* protected function viewAction(): Action
-    {
-        return Actions\ViewAction::make();
-    } */
 
     public function getFormSchema(): array
     {
@@ -53,9 +48,9 @@ class CalendarWidget extends FullCalendarWidget
 
             Grid::make()
                 ->schema([
-                    DateTimePicker::make('start'),
+                    DateTimePicker::make('starts_at'),
 
-                    DateTimePicker::make('end'),
+                    DateTimePicker::make('ends_at'),
                 ]),
         ];
     }

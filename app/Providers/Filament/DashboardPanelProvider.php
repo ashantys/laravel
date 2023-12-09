@@ -53,10 +53,11 @@ class DashboardPanelProvider extends PanelProvider
             ])
             ->plugin(
                 FilamentFullCalendarPlugin::make()
-                    ->editable(true)
-                    ->selectable(true)
-                    ->timezone('local')
-                    ->locale('es')
+                ->selectable(true)
+                ->editable(true)
+                ->selectable(true)
+                ->timezone('local')
+                ->locale('esLocale')
             )
             ->authMiddleware([
                 Authenticate::class,
