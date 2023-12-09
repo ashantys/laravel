@@ -9,10 +9,6 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-    ...(process.env.APP_ENV === 'production' ? { cssnano: {} } : {})
-  }
+  plugins: []
 }
 
