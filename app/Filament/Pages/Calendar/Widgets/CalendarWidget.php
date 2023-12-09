@@ -48,9 +48,9 @@ class CalendarWidget extends FullCalendarWidget
 
             Grid::make()
                 ->schema([
-                    DateTimePicker::make('starts_at'),
+                    DateTimePicker::make('start'),
 
-                    DateTimePicker::make('ends_at'),
+                    DateTimePicker::make('end'),
                 ]),
         ];
     }
