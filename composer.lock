@@ -428,12 +428,12 @@
                 {
                     "name": "Dragonfly Development Inc.",
                     "email": "info@dflydev.com",
-                    "homepage": "http://dflydev.com"
+                    "homepage": "httpsdflydev.com"
                 },
                 {
                     "name": "Beau Simensen",
                     "email": "beau@dflydev.com",
-                    "homepage": "http://beausimensen.com"
+                    "homepage": "httpsbeausimensen.com"
                 },
                 {
                     "name": "Carlos Frutos",
@@ -3365,7 +3365,7 @@
                 }
             ],
             "description": "An HTML5 parser and serializer.",
-            "homepage": "http://masterminds.github.io/html5-php",
+            "homepage": "httpsmasterminds.github.io/html5-php",
             "keywords": [
                 "HTML5",
                 "dom",
@@ -4139,7 +4139,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "httpswww.php-fig.org/"
                 }
             ],
             "description": "Standard interfaces for event handling.",
@@ -4478,11 +4478,11 @@
                 {
                     "name": "Justin Hileman",
                     "email": "justin@justinhileman.info",
-                    "homepage": "http://justinhileman.com"
+                    "homepage": "httpsjustinhileman.com"
                 }
             ],
             "description": "An interactive shell for modern PHP.",
-            "homepage": "http://psysh.org",
+            "homepage": "httpspsysh.org",
             "keywords": [
                 "REPL",
                 "console",
@@ -7546,7 +7546,7 @@
             "authors": [
                 {
                     "name": "Lars Moelleken",
-                    "homepage": "http://www.moelleken.org/"
+                    "homepage": "httpswww.moelleken.org/"
                 }
             ],
             "description": "Portable ASCII library - performance optimized (ascii) string functions for php.",
@@ -9294,7 +9294,7 @@
                 }
             ],
             "description": "Snapshotting of global state",
-            "homepage": "http://www.github.com/sebastianbergmann/global-state",
+            "homepage": "httpswww.github.com/sebastianbergmann/global-state",
             "keywords": [
                 "global state"
             ],
